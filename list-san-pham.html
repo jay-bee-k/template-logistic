@@ -1,0 +1,678 @@
+<html lang="en-US">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Keywords" content="">
+    <meta name="Description" content="">
+    <link rel="icon" href="./assets/images/favicon.png" type="image/x-icon">
+
+    <meta itemprop="name" content="">
+    <meta itemprop="description" content="">
+    <meta itemprop="image" content="">
+
+    <meta property="og:locale" content="">
+    <meta property="og:type" content="">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+    <meta property="og:site_name" content="">
+
+    <meta name="twitter:card" content="">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:title" content="">
+    <meta name="twitter:site" content="">
+    <meta name="twitter:image" content="">
+    <meta name="twitter:creator" content="">
+
+    <title>Frontend Logistic</title>
+
+    <link rel="stylesheet" href="./assets/plugin/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/plugin/swiper/swiper.min.css">
+    <link rel="stylesheet" href="./assets/plugin/animate.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+
+<div class="modal fade modal-theme" id="modal-delivery" tabindex="-1">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Choose your location</h5>
+            </div>
+            <div class="modal-body">
+                <div class="desc">Delivery options and delivery speeds may vary for different locations</div>
+                <div class="button">
+                    <a href="">
+                        Sign in to see your addresses
+                    </a>
+                </div>
+                <div class="line">
+                    <span>or enter a postal code</span>
+                </div>
+                <div class="m-form">
+                    <form action="" class="mb-0">
+                        <div class="d-flex align-items-center">
+                            <input class="form-control" type="text">
+                            <span class="mx-2 d-inline-block">-</span>
+                            <input class="form-control" type="text">
+                            <button class="ml-2">Apply</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="line">
+                    <span>or</span>
+                </div>
+                <div class="m-form">
+                    <form action="" class="mb-0">
+                        <select class="form-control" name="" id="">
+                            <option value="" selected>Vietnam</option>
+                            <option value="">Vietnam</option>
+                            <option value="">Vietnam</option>
+                            <option value="">Vietnam</option>
+                            <option value="">Vietnam</option>
+                            <option value="">Vietnam</option>
+                            <option value="">Vietnam</option>
+                            <option value="">Vietnam</option>
+                        </select>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<header id="header" class="header">
+    <div class="container">
+        <div class="row flex-nowrap flex-lg-wrap">
+            <div class="col-auto flex-shrink-0  header-logo">
+                <a href="" class="h-100 d-flex align-items-center">
+                    <img width="160" height="60"
+                         src="./assets/images/logo1.png"
+                         alt="">
+                </a>
+            </div>
+            <div class="col-auto flex-grow-1">
+                <div class="header-navigation" id="header-navigation">
+                    <ul class="list-unstyled mb-0 d-lg-flex align-items-lg-center justify-content-lg-start">
+                        <li class="d-block d-lg-none header-navigation_logo">
+                            <a href="">
+                                <img width="160" height="60"
+                                     src="./assets/images/logo1.png" alt="">
+                            </a>
+                            <button type="button" class="header-navigation_close" id="header-navigation_close"><i
+                                    class="far fa-times"></i></button>
+                        </li>
+                        <li>
+                            <a href="index.html" class="d-inline-block">
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="d-inline-block">
+                                About us
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="d-inline-block">
+                                Services
+                                <i class="fal fa-angle-down"></i>
+                            </a>
+                            <ul class="list-unstyled mb-0">
+                                <li>
+                                    <a href="">Services 01</a>
+                                </li>
+                                <li>
+                                    <a href="">Services 01</a>
+                                </li>
+                                <li>
+                                    <a href="">Services 01</a>
+                                </li>
+                                <li>
+                                    <a href="">Services 01</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="d-inline-block">
+                                Transport
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="d-inline-block">
+                                Blog
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="d-inline-block">
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-auto flex-shirk-0">
+                <div class="d-flex align-items-center h-100">
+                    <div class="header-contact">
+                        <a href="tel:0909090909">
+                            <span class="icon"><i class="fas fa-phone-square-alt"></i></span>
+                            <span class="d-none d-sm-inline">
+                                0909 090 909
+                            </span>
+                        </a>
+                    </div>
+                    <div class="header-hamburger d-block d-lg-none">
+                        <button type="button" class="no-animation" id="header-hamburger">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header-overlay" id="header-overlay"></div>
+</header>
+<div class="page">
+    <div class="main">
+        <section class="banner">
+            <div class="swiper-container" id="logistic-banner">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide slide-image"
+                         style="background-image: url('./assets/images/banner/slide01.jpg')">
+                        <div class="container">
+                            <div class="slide-container">
+                                <h4 class="slide-sub-title">Learn To Face Difficulty</h4>
+                                <div class="slide-animated">
+                                    <h3 class="slide-title">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </h3>
+                                    <a href="#" class="slide-button">Start Projects</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide-image"
+                         style="background-image: url('./assets/images/banner/slide02.jpg')">
+                        <div class="container">
+                            <div class="slide-container">
+                                <h4 class="slide-sub-title">Learn To Face Difficulty</h4>
+                                <div class="slide-animated">
+                                    <h3 class="slide-title">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </h3>
+                                    <a href="#" class="slide-button">Start Projects</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide-image"
+                         style="background-image: url('./assets/images/banner/slide03.jpg')">
+                        <div class="container">
+                            <div class="slide-container">
+                                <h4 class="slide-sub-title">Learn To Face Difficulty</h4>
+                                <div class="slide-animated">
+                                    <h3 class="slide-title">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </h3>
+                                    <a href="#" class="slide-button">Start Projects</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide-image"
+                         style="background-image: url('./assets/images/banner/slide04.jpg')">
+                        <div class="container">
+                            <div class="slide-container">
+                                <h4 class="slide-sub-title">Learn To Face Difficulty</h4>
+                                <div class="slide-animated">
+                                    <h3 class="slide-title">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </h3>
+                                    <a href="#" class="slide-button">Start Projects</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </section>
+        <section class="list-product">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="heading">
+                            <h2>
+                                Danh sách sản phẩm
+                            </h2>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto laborum minima nulla.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="row row-g3">
+                            <div class="col-12 col-sm-6 col-lg-3">
+                                <div class="card card-product">
+                                    <div class="card-header">
+                                        <a href="">
+                                            <img src="https://cdn.youmed.vn/tin-tuc/wp-content/uploads/2021/06/thuoc-nho-mat-v-rohto-new.png"
+                                                 alt="">
+                                        </a>
+                                        <div class="card-header_readmore">
+                                            <a href="">
+                                                View Detail
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="card-title">
+                                            <a href="">Thuốc nhỏ mắt 4 loại khoáng chất ロートクール40α</a>
+                                        </div>
+                                        <div class="card-category">
+                                            Brand:
+                                            <a href="">クラシエホームプロダクツ</a>
+                                        </div>
+                                        <div class="card-status">
+                                            Status:
+                                            <span class="in-stock">In Stock</span>
+                                        </div>
+                                        <div class="card-price">
+                                            Giá: <span>150k (1 cặp 2 lọ)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-lg-3">
+                                <div class="card card-product">
+                                    <div class="card-header">
+                                        <a href="">
+                                            <img src="https://nhathuocngocanh.com/wp-content/uploads/2018/05/V.rohto_Vitamin.jpg"
+                                                 alt="">
+                                        </a>
+                                        <div class="card-header_readmore">
+                                            <a href="">
+                                                View Detail
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="card-title">
+                                            <a href="">Thuốc nhỏ mắt 4 loại khoáng chất ロートクール40α ロートクール40α ロートクール40α
+                                            </a>
+                                        </div>
+                                        <div class="card-category">
+                                            Brand:
+                                            <a href="">クラシエホームプロダクツ</a>
+                                        </div>
+                                        <div class="card-status">
+                                            Status:
+                                            <span class="out-of-stock">Out of stock</span>
+                                        </div>
+                                        <div class="card-price">
+                                            Giá: <span>150k (1 cặp 2 lọ)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-lg-3">
+                                <div class="card card-product">
+                                    <div class="card-header">
+                                        <a href="">
+                                            <img src="https://vivita.vn/wp-content/uploads/2020/11/Nen-V.rohto_.jpg"
+                                                 alt="">
+                                        </a>
+                                        <div class="card-header_readmore">
+                                            <a href="">
+                                                View Detail
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="card-title">
+                                            <a href="">Thuốc nhỏ mắt 4 loại khoáng chất ロートクール40α ロートクール40α ロートクール40α
+                                            </a>
+                                        </div>
+                                        <div class="card-category">
+                                            Brand:
+                                            <a href="">クラシエホームプロダクツ</a>
+                                        </div>
+                                        <div class="card-status">
+                                            Status:
+                                            <span class="out-of-stock">Out of stock</span>
+                                        </div>
+                                        <div class="card-price">
+                                            Giá: <span>150k (1 cặp 2 lọ)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-lg-3">
+                                <div class="card card-product">
+                                    <div class="card-header">
+                                        <a href="">
+                                            <img src="https://cdn.youmed.vn/tin-tuc/wp-content/uploads/2021/06/thuoc-nho-mat-v-rohto-new.png"
+                                                 alt="">
+                                        </a>
+                                        <div class="card-header_readmore">
+                                            <a href="">
+                                                View Detail
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="card-title">
+                                            <a href="">Thuốc nhỏ mắt 4 loại khoáng chất ロートクール40α</a>
+                                        </div>
+                                        <div class="card-category">
+                                            Brand:
+                                            <a href="">クラシエホームプロダクツ</a>
+                                        </div>
+                                        <div class="card-status">
+                                            Status:
+                                            <span class="in-stock">In Stock</span>
+                                        </div>
+                                        <div class="card-price">
+                                            Giá: <span>150k (1 cặp 2 lọ)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-lg-3">
+                                <div class="card card-product">
+                                    <div class="card-header">
+                                        <a href="">
+                                            <img src="https://nhathuocngocanh.com/wp-content/uploads/2018/05/V.rohto_Vitamin.jpg"
+                                                 alt="">
+                                        </a>
+                                        <div class="card-header_readmore">
+                                            <a href="">
+                                                View Detail
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="card-title">
+                                            <a href="">Thuốc nhỏ mắt 4 loại khoáng chất ロートクール40α ロートクール40α ロートクール40α
+                                            </a>
+                                        </div>
+                                        <div class="card-category">
+                                            Brand:
+                                            <a href="">クラシエホームプロダクツ</a>
+                                        </div>
+                                        <div class="card-status">
+                                            Status:
+                                            <span class="out-of-stock">Out of stock</span>
+                                        </div>
+                                        <div class="card-price">
+                                            Giá: <span>150k (1 cặp 2 lọ)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-lg-3">
+                                <div class="card card-product">
+                                    <div class="card-header">
+                                        <a href="">
+                                            <img src="https://vivita.vn/wp-content/uploads/2020/11/Nen-V.rohto_.jpg"
+                                                 alt="">
+                                        </a>
+                                        <div class="card-header_readmore">
+                                            <a href="">
+                                                View Detail
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="card-title">
+                                            <a href="">Thuốc nhỏ mắt 4 loại khoáng chất ロートクール40α ロートクール40α ロートクール40α
+                                            </a>
+                                        </div>
+                                        <div class="card-category">
+                                            Brand:
+                                            <a href="">クラシエホームプロダクツ</a>
+                                        </div>
+                                        <div class="card-status">
+                                            Status:
+                                            <span class="out-of-stock">Out of stock</span>
+                                        </div>
+                                        <div class="card-price">
+                                            Giá: <span>150k (1 cặp 2 lọ)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-lg-3">
+                                <div class="card card-product">
+                                    <div class="card-header">
+                                        <a href="">
+                                            <img src="https://cdn.youmed.vn/tin-tuc/wp-content/uploads/2021/06/thuoc-nho-mat-v-rohto-new.png"
+                                                 alt="">
+                                        </a>
+                                        <div class="card-header_readmore">
+                                            <a href="">
+                                                View Detail
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="card-title">
+                                            <a href="">Thuốc nhỏ mắt 4 loại khoáng chất ロートクール40α</a>
+                                        </div>
+                                        <div class="card-category">
+                                            Brand:
+                                            <a href="">クラシエホームプロダクツ</a>
+                                        </div>
+                                        <div class="card-status">
+                                            Status:
+                                            <span class="in-stock">In Stock</span>
+                                        </div>
+                                        <div class="card-price">
+                                            Giá: <span>150k (1 cặp 2 lọ)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-lg-3">
+                                <div class="card card-product">
+                                    <div class="card-header">
+                                        <a href="">
+                                            <img src="https://nhathuocngocanh.com/wp-content/uploads/2018/05/V.rohto_Vitamin.jpg"
+                                                 alt="">
+                                        </a>
+                                        <div class="card-header_readmore">
+                                            <a href="">
+                                                View Detail
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="card-title">
+                                            <a href="">Thuốc nhỏ mắt 4 loại khoáng chất ロートクール40α ロートクール40α ロートクール40α
+                                            </a>
+                                        </div>
+                                        <div class="card-category">
+                                            Brand:
+                                            <a href="">クラシエホームプロダクツ</a>
+                                        </div>
+                                        <div class="card-status">
+                                            Status:
+                                            <span class="out-of-stock">Out of stock</span>
+                                        </div>
+                                        <div class="card-price">
+                                            Giá: <span>150k (1 cặp 2 lọ)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-lg-3">
+                                <div class="card card-product">
+                                    <div class="card-header">
+                                        <a href="">
+                                            <img src="https://vivita.vn/wp-content/uploads/2020/11/Nen-V.rohto_.jpg"
+                                                 alt="">
+                                        </a>
+                                        <div class="card-header_readmore">
+                                            <a href="">
+                                                View Detail
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="card-title">
+                                            <a href="">Thuốc nhỏ mắt 4 loại khoáng chất ロートクール40α ロートクール40α ロートクール40α
+                                            </a>
+                                        </div>
+                                        <div class="card-category">
+                                            Brand:
+                                            <a href="">クラシエホームプロダクツ</a>
+                                        </div>
+                                        <div class="card-status">
+                                            Status:
+                                            <span class="out-of-stock">Out of stock</span>
+                                        </div>
+                                        <div class="card-price">
+                                            Giá: <span>150k (1 cặp 2 lọ)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-lg-3">
+                                <div class="card card-product">
+                                    <div class="card-header">
+                                        <a href="">
+                                            <img src="https://cdn.youmed.vn/tin-tuc/wp-content/uploads/2021/06/thuoc-nho-mat-v-rohto-new.png"
+                                                 alt="">
+                                        </a>
+                                        <div class="card-header_readmore">
+                                            <a href="">
+                                                View Detail
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="card-title">
+                                            <a href="">Thuốc nhỏ mắt 4 loại khoáng chất ロートクール40α</a>
+                                        </div>
+                                        <div class="card-category">
+                                            Brand:
+                                            <a href="">クラシエホームプロダクツ</a>
+                                        </div>
+                                        <div class="card-status">
+                                            Status:
+                                            <span class="in-stock">In Stock</span>
+                                        </div>
+                                        <div class="card-price">
+                                            Giá: <span>150k (1 cặp 2 lọ)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-lg-3">
+                                <div class="card card-product">
+                                    <div class="card-header">
+                                        <a href="">
+                                            <img src="https://nhathuocngocanh.com/wp-content/uploads/2018/05/V.rohto_Vitamin.jpg"
+                                                 alt="">
+                                        </a>
+                                        <div class="card-header_readmore">
+                                            <a href="">
+                                                View Detail
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="card-title">
+                                            <a href="">Thuốc nhỏ mắt 4 loại khoáng chất ロートクール40α ロートクール40α ロートクール40α
+                                            </a>
+                                        </div>
+                                        <div class="card-category">
+                                            Brand:
+                                            <a href="">クラシエホームプロダクツ</a>
+                                        </div>
+                                        <div class="card-status">
+                                            Status:
+                                            <span class="out-of-stock">Out of stock</span>
+                                        </div>
+                                        <div class="card-price">
+                                            Giá: <span>150k (1 cặp 2 lọ)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-lg-3">
+                                <div class="card card-product">
+                                    <div class="card-header">
+                                        <a href="">
+                                            <img src="https://vivita.vn/wp-content/uploads/2020/11/Nen-V.rohto_.jpg"
+                                                 alt="">
+                                        </a>
+                                        <div class="card-header_readmore">
+                                            <a href="">
+                                                View Detail
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="card-title">
+                                            <a href="">Thuốc nhỏ mắt 4 loại khoáng chất ロートクール40α ロートクール40α ロートクール40α
+                                            </a>
+                                        </div>
+                                        <div class="card-category">
+                                            Brand:
+                                            <a href="">クラシエホームプロダクツ</a>
+                                        </div>
+                                        <div class="card-status">
+                                            Status:
+                                            <span class="out-of-stock">Out of stock</span>
+                                        </div>
+                                        <div class="card-price">
+                                            Giá: <span>150k (1 cặp 2 lọ)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-5">
+                            <div class="col-12">
+                                <div class="section-pagination">
+                                    <ul class="pagination">
+                                        <li class="page-item">
+                                            <a class="page-link" href="">
+                                                <i class="fal fa-angle-double-left"></i>
+                                            </a>
+                                        </li>
+                                        <li class="page-item pageactive">
+                                            <a class="page-link" href="">
+                                                <strong>1</strong>
+                                            </a>
+                                        </li>
+                                        <li class="page-item ">
+                                            <a class="page-link" href="">2</a>
+                                        </li>
+                                        <li class="page-item">
+                                            <a class="page-link" href="">
+                                                <i class="fal fa-angle-double-right"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+
+<script type="text/javascript" src="./assets/plugin/jquery.min.js"></script>
+<script type="text/javascript" src="./assets/plugin/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript" src="./assets/plugin/swiper/swiper.min.js"></script>
+<script type="text/javascript" src="./assets/js/theme-script.js"></script>
+
+</body>
+</html>
